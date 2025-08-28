@@ -2,25 +2,40 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio de Itandewy</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <img src="images/foto_perfil.png" alt="Itandewy" class="perfil">
         <h1>Itandewy Yamileth Abad Alvarado</h1>
         <p>Ingeniera en Sistemas | Desarrollo Web & Software</p>
     </header>
 
     <section id="proyectos">
         <h2>Proyectos Destacados</h2>
-        <div class="proyecto">
-            <h3>Proyecto 1: Sistema de Biblioteca</h3>
-            <p>Gestión de libros y usuarios con Python y SQLite.</p>
-            <p>Tecnologías: Python, Flask, SQLite, HTML/CSS</p>
-            <a href="projects/proyecto1.html">Ver más</a> |
-            <a href="https://github.com/itandewy/sistema-biblioteca" target="_blank">Repositorio</a>
+        <div class="tarjeta-proyecto">
+            <img src="images/proyecto1.png" alt="Proyecto 1">
+            <div class="info">
+                <h3>Sistema de Biblioteca</h3>
+                <p>Gestión de libros y usuarios con Python y SQLite.</p>
+                <p><strong>Tecnologías:</strong> Python, Flask, SQLite, HTML/CSS</p>
+                <a href="projects/proyecto1.html" class="btn">Ver más</a>
+                <a href="https://github.com/itandewy/sistema-biblioteca" class="btn" target="_blank">Repositorio</a>
+            </div>
         </div>
-        <!-- Más proyectos -->
+
+        <div class="tarjeta-proyecto">
+            <img src="images/proyecto2.png" alt="Proyecto 2">
+            <div class="info">
+                <h3>Chat en Tiempo Real</h3>
+                <p>Aplicación web con Flask y WebSockets para mensajería instantánea.</p>
+                <p><strong>Tecnologías:</strong> Python, Flask, JavaScript, HTML/CSS</p>
+                <a href="projects/proyecto2.html" class="btn">Ver más</a>
+                <a href="https://github.com/itandewy/chat-flask" class="btn" target="_blank">Repositorio</a>
+            </div>
+        </div>
     </section>
 
     <section id="habilidades">
@@ -34,9 +49,13 @@
 
     <section id="contacto">
         <h2>Contacto</h2>
-        <p>Email: abad.itandewy@gmail.com</p>
-        <p>LinkedIn: <a href="www.linkedin.com/in/itandewy-abad-60a3b7202" target="_blank">linkedin.com/in/itandewy-abad</a></p>
-        <p>GitHub: <a href="https://github.com/itandewy-abad" target="_blank">github.com/itandewy-abad</a></p>
+        <p>Email: itandewy@email.com</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/itandewy" target="_blank">linkedin.com/in/itandewy</a></p>
+        <p>GitHub: <a href="https://github.com/itandewy" target="_blank">github.com/itandewy</a></p>
     </section>
+
+    <footer>
+        <p>&copy; 2025 Itandewy Yamileth Abad Alvarado</p>
+    </footer>
 </body>
 </html>
