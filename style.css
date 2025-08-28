@@ -92,3 +92,42 @@ footer {
     background-color: #222;
     color: #fff;
 }
+
+/* Menú superior */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0057b7;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px 0;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Ajuste del header para no quedar oculto bajo el nav */
+header {
+    padding-top: 100px; /* deja espacio para el nav */
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
