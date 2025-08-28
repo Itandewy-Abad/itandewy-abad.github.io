@@ -1,0 +1,94 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #0057b7;
+    color: #fff;
+    padding: 40px 20px;
+}
+header .perfil {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+header h1 {
+    margin: 0;
+}
+header p {
+    font-style: italic;
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Proyectos */
+.tarjeta-proyecto {
+    display: flex;
+    background: #fff;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.tarjeta-proyecto img {
+    width: 250px;
+    object-fit: cover;
+}
+.tarjeta-proyecto .info {
+    padding: 20px;
+}
+.tarjeta-proyecto .btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 8px 15px;
+    background-color: #0057b7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.tarjeta-proyecto .btn:hover {
+    background-color: #003f8a;
+}
+
+/* Habilidades */
+#habilidades ul {
+    list-style-type: none;
+    padding: 0;
+}
+#habilidades li {
+    background-color: #e0e7ff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Contacto */
+#contacto a {
+    color: #0057b7;
+    text-decoration: none;
+}
+#contacto a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+}
